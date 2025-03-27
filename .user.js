@@ -31,7 +31,7 @@
       setTimeout(() => {
         console.log("✅ 동기화 완료 → 창 자동 닫기");
         window.close();
-      }, 1500);
+      }, 3000);
     } else {
       console.warn("❌ 유저 동기화 버튼을 찾을 수 없습니다.");
     }
